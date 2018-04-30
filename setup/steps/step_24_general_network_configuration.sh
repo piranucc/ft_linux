@@ -34,7 +34,7 @@ nameserver 8.8.4.4
 " > /etc/resolv.conf
 
 # Configuring the system hostname
-echo "phjacobs" > /etc/hostname
+echo "piranucc" > /etc/hostname
 
 echo "
 # Begin /etc/hosts

@@ -13,7 +13,6 @@ setup(){
 	cd $base_dir											|| return
 	tar -xf $pkg_source										|| return
 	cd $pkg_name											|| return
-	patch -Np1 -i ../inetutils-1.9-PATH_PROCNET_DEV.patch	|| return
 }
 
 build(){
